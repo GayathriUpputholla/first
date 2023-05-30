@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+       <h1>THESE ARE CONDITIONAL STATEMENTS</h1>
+       <!--
+        {% if a > 15 %}
+            <h1>inside block</h1>
+            <h1>{{a}} is greaterthan 15</h1>
+        {% endif %} 
+       -->
+       {% if a > b %}
+          <h1>inside if block</h1>
+          <h1>{{a}} is greaterthan {{b}}</h1>
+       {% else %} 
+           <h1>inside else block</h1>
+           <h1>{{b}} is greaterthan {{a}}</h1>
+       {% endif %}    
+
+
+          
+    </center>
+    
+</body>
+</html>
